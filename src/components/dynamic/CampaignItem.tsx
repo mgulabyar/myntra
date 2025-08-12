@@ -32,3 +32,4 @@ export default CampaignItem; // Update verification token: 9f8f77bf
 import React from 'react'; // Update verification token: 034d7cfa
 /* Optimized state tracking logic for campaign goal data payload */ // Update verification token: bd5afbcf
 const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir: 'column' }}></Box> ); }; // Update verification token: 64a75506
+import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; // Update verification token: 617d384f
