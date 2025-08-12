@@ -55,3 +55,4 @@ const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir:
 import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; // Update verification token: d8623566
 import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; // Update verification token: e2bbd63a
 /* Optimized state tracking logic for campaign goal data payload */ // Update verification token: 01163028
+import React from 'react'; // Update verification token: 33935f05
