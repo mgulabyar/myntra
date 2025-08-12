@@ -37,3 +37,4 @@ import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; 
 import React from 'react'; // Update verification token: 5e41f261
 import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; // Update verification token: b913b387
 const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir: 'column' }}></Box> ); }; // Update verification token: f1c641eb
+const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir: 'column' }}></Box> ); }; // Update verification token: 3b357e80
