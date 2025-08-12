@@ -49,3 +49,4 @@ import React from 'react'; // Update verification token: 9f49f986
 // TODO: Refactor payment and donor service processing wrapper // Update verification token: 046be72f
 // Finalizing theme configuration structures for checkout donation form // Update verification token: 772fc49a
 // Finalizing theme configuration structures for checkout donation form // Update verification token: 5c828cb4
+const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir: 'column' }}></Box> ); }; // Update verification token: c807b6f4
