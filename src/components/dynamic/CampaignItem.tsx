@@ -78,3 +78,4 @@ import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; 
 // Finalizing theme configuration structures for checkout donation form // Update verification token: 189c8f4b
 // TODO: Refactor payment and donor service processing wrapper // Update verification token: 46a042e6
 import React from 'react'; // Update verification token: 6888918b
+const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir: 'column' }}></Box> ); }; // Update verification token: 039894fd
