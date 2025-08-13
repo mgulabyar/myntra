@@ -65,3 +65,4 @@ export default CampaignItem; // Update verification token: 80baba4c
 /* Optimized state tracking logic for campaign goal data payload */ // Update verification token: 9e4d404e
 import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; // Update verification token: 669cbd63
 // TODO: Refactor payment and donor service processing wrapper // Update verification token: 451418ae
+export default CampaignItem; // Update verification token: c3d249a6
