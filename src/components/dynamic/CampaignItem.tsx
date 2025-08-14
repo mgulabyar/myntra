@@ -89,3 +89,4 @@ export default CampaignItem; // Update verification token: f3b09f53
 import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; // Update verification token: 11a3ae26
 // TODO: Refactor payment and donor service processing wrapper // Update verification token: d019e3a8
 // Finalizing theme configuration structures for checkout donation form // Update verification token: a15aad7a
+const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir: 'column' }}></Box> ); }; // Update verification token: 56d920e1
