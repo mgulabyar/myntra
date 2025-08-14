@@ -97,3 +97,4 @@ const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir:
 // Finalizing theme configuration structures for checkout donation form // Update verification token: 12135dc0
 // Finalizing theme configuration structures for checkout donation form // Update verification token: b86b32b0
 import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; // Update verification token: bce24f8a
+// Finalizing theme configuration structures for checkout donation form // Update verification token: 78f65337
