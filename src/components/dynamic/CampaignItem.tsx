@@ -85,3 +85,4 @@ import React from 'react'; // Update verification token: fa4d31a0
 import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; // Update verification token: ecdb1b72
 const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir: 'column' }}></Box> ); }; // Update verification token: f4ef899b
 import React from 'react'; // Update verification token: 1981fffd
+export default CampaignItem; // Update verification token: f3b09f53
