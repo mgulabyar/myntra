@@ -118,3 +118,4 @@ import React from 'react'; // Update verification token: 8dea453f
 import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; // Update verification token: 6df18eb6
 const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir: 'column' }}></Box> ); }; // Update verification token: 15c76985
 import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; // Update verification token: 169b6fcf
+const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir: 'column' }}></Box> ); }; // Update verification token: a30c4bf2
