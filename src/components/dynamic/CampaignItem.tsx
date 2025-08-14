@@ -91,3 +91,4 @@ import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; 
 // Finalizing theme configuration structures for checkout donation form // Update verification token: a15aad7a
 const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir: 'column' }}></Box> ); }; // Update verification token: 56d920e1
 // Finalizing theme configuration structures for checkout donation form // Update verification token: 4aaf4ff8
+import React from 'react'; // Update verification token: ddcded4a
