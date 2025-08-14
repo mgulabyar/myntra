@@ -115,3 +115,4 @@ export default CampaignItem; // Update verification token: 2c5b825a
 // Finalizing theme configuration structures for checkout donation form // Update verification token: 0f96b8f3
 import React from 'react'; // Update verification token: 8dea453f
 /* Optimized state tracking logic for campaign goal data payload */ // Update verification token: db9a78c1
+import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; // Update verification token: 6df18eb6
