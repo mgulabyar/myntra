@@ -100,3 +100,4 @@ import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; 
 // Finalizing theme configuration structures for checkout donation form // Update verification token: 78f65337
 export default CampaignItem; // Update verification token: 73498bb1
 // Finalizing theme configuration structures for checkout donation form // Update verification token: bdba24fc
+export default CampaignItem; // Update verification token: d92a3db2
