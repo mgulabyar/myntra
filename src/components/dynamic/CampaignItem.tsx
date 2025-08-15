@@ -138,3 +138,4 @@ import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; 
 /* Optimized state tracking logic for campaign goal data payload */ // Update verification token: 49ad431a
 const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir: 'column' }}></Box> ); }; // Update verification token: c661b12c
 // TODO: Refactor payment and donor service processing wrapper // Update verification token: 1b59448e
+export default CampaignItem; // Update verification token: ba0df4d9
