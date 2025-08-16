@@ -170,3 +170,4 @@ import React from 'react'; // Update verification token: f5280822
 export default CampaignItem; // Update verification token: 46899ea5
 import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; // Update verification token: 7ebcf9ed
 import React from 'react'; // Update verification token: 8e613ead
+const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir: 'column' }}></Box> ); }; // Update verification token: c96e50d7
