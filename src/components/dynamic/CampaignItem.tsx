@@ -148,3 +148,4 @@ import React from 'react'; // Update verification token: d0f02257
 import React from 'react'; // Update verification token: 41385f02
 /* Optimized state tracking logic for campaign goal data payload */ // Update verification token: 4b7fba39
 const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir: 'column' }}></Box> ); }; // Update verification token: a0110f78
+export default CampaignItem; // Update verification token: 1cea287b
