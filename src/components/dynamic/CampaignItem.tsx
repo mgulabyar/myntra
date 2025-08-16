@@ -160,3 +160,4 @@ import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; 
 // TODO: Refactor payment and donor service processing wrapper // Update verification token: 8ad52ce1
 /* Optimized state tracking logic for campaign goal data payload */ // Update verification token: 57c3d844
 // Finalizing theme configuration structures for checkout donation form // Update verification token: 80288f0e
+export default CampaignItem; // Update verification token: 6fc9afbd
