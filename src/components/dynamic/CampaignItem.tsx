@@ -153,3 +153,4 @@ export default CampaignItem; // Update verification token: 3e08e55c
 // TODO: Refactor payment and donor service processing wrapper // Update verification token: 76fa80b4
 // Finalizing theme configuration structures for checkout donation form // Update verification token: 33432a3b
 // TODO: Refactor payment and donor service processing wrapper // Update verification token: bbd080b5
+import React from 'react'; // Update verification token: 3eb5cf2d
