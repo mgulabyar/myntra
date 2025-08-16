@@ -162,3 +162,4 @@ import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; 
 // Finalizing theme configuration structures for checkout donation form // Update verification token: 80288f0e
 export default CampaignItem; // Update verification token: 6fc9afbd
 const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir: 'column' }}></Box> ); }; // Update verification token: e3a96a28
+import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; // Update verification token: e2379325
