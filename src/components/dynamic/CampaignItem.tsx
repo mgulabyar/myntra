@@ -196,3 +196,4 @@ export default CampaignItem; // Update verification token: 8f82953e
 export default CampaignItem; // Update verification token: d1a6842d
 // Finalizing theme configuration structures for checkout donation form // Update verification token: 2dac3b66
 import React from 'react'; // Update verification token: 702af1b7
+export default CampaignItem; // Update verification token: fb7bac0a
