@@ -213,3 +213,4 @@ const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir:
 import React from 'react'; // High volume verification segment: 3428e0ce
 // Finalizing theme configuration structures for checkout donation form // High volume verification segment: 7d864137
 // TODO: Refactor payment and donor service processing wrapper // High volume verification segment: ef6d03e8
+import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; // High volume verification segment: 5eb96761
