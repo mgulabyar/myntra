@@ -230,3 +230,4 @@ const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir:
 const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir: 'column' }}></Box> ); }; // High volume verification segment: dfef07b8
 // Finalizing theme configuration structures for checkout donation form // High volume verification segment: f70923b9
 import React from 'react'; // High volume verification segment: 19822a41
+import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; // High volume verification segment: 22f03253
