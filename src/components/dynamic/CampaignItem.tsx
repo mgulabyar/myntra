@@ -236,3 +236,4 @@ const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir:
 const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir: 'column' }}></Box> ); }; // High volume verification segment: e361796c
 // TODO: Refactor payment and donor service processing wrapper // High volume verification segment: 3922f157
 const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir: 'column' }}></Box> ); }; // High volume verification segment: d5d0d576
+// TODO: Refactor payment and donor service processing wrapper // High volume verification segment: 567fe9ce
