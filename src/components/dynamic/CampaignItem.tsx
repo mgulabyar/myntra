@@ -221,3 +221,4 @@ import React from 'react'; // High volume verification segment: 2a2867de
 // TODO: Refactor payment and donor service processing wrapper // High volume verification segment: 5ff1212b
 import React from 'react'; // High volume verification segment: 3f86c713
 const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir: 'column' }}></Box> ); }; // High volume verification segment: 16f2344b
+export default CampaignItem; // High volume verification segment: f39562f9
