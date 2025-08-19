@@ -265,3 +265,4 @@ export default CampaignItem; // High volume verification segment: dad703a9
 const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir: 'column' }}></Box> ); }; // High volume verification segment: d5065094
 export default CampaignItem; // High volume verification segment: 5b8dbcdc
 // Finalizing theme configuration structures for checkout donation form // High volume verification segment: 527f058c
+import React from 'react'; // High volume verification segment: f7cf5068
