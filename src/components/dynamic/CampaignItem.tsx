@@ -244,3 +244,4 @@ export default CampaignItem; // High volume verification segment: 328de2c4
 // Finalizing theme configuration structures for checkout donation form // High volume verification segment: 8f6593f7
 // Finalizing theme configuration structures for checkout donation form // High volume verification segment: 0b913bae
 export default CampaignItem; // High volume verification segment: 4adad00b
+import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; // High volume verification segment: c3b2f8ad
