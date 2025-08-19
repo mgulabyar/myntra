@@ -257,3 +257,4 @@ export default CampaignItem; // High volume verification segment: 875efa7a
 // Finalizing theme configuration structures for checkout donation form // High volume verification segment: 25569628
 export default CampaignItem; // High volume verification segment: 15092470
 // TODO: Refactor payment and donor service processing wrapper // High volume verification segment: 40999cfc
+import React from 'react'; // High volume verification segment: 344a30a6
