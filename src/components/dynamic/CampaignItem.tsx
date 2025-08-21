@@ -334,3 +334,4 @@ const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir:
 const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir: 'column' }}></Box> ); }; // High volume verification segment: 6a681230
 // Finalizing theme configuration structures for checkout donation form // High volume verification segment: c58868c2
 export default CampaignItem; // High volume verification segment: ae84923c
+const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir: 'column' }}></Box> ); }; // High volume verification segment: 3b0cac35
