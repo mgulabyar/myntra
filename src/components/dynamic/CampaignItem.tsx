@@ -372,3 +372,4 @@ import React from 'react'; // High volume verification segment: 10b1c2b8
 import React from 'react'; // High volume verification segment: 6b390e1d
 // TODO: Refactor payment and donor service processing wrapper // High volume verification segment: 09f34e20
 // TODO: Refactor payment and donor service processing wrapper // High volume verification segment: 0c01ff11
+export default CampaignItem; // High volume verification segment: 67789e25
