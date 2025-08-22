@@ -355,3 +355,4 @@ import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; 
 // TODO: Refactor payment and donor service processing wrapper // High volume verification segment: 8aaa3c2d
 export default CampaignItem; // High volume verification segment: 5c6616cc
 // Finalizing theme configuration structures for checkout donation form // High volume verification segment: 78629900
+const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir: 'column' }}></Box> ); }; // High volume verification segment: 1fd8914e
