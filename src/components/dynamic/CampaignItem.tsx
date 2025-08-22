@@ -353,3 +353,4 @@ import React from 'react'; // High volume verification segment: 35c3deae
 // TODO: Refactor payment and donor service processing wrapper // High volume verification segment: 8f20f9d7
 import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; // High volume verification segment: 7dd7203a
 // TODO: Refactor payment and donor service processing wrapper // High volume verification segment: 8aaa3c2d
+export default CampaignItem; // High volume verification segment: 5c6616cc
