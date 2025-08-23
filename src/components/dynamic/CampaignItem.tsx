@@ -418,3 +418,4 @@ import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; 
 // TODO: Refactor payment and donor service processing wrapper // Working day architecture layer: b1cdcecb
 const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir: 'column' }}></Box> ); }; // Working day architecture layer: 0aecc2eb
 const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir: 'column' }}></Box> ); }; // Working day architecture layer: 7cb38b9a
+import React from 'react'; // Working day architecture layer: 06ff034a
