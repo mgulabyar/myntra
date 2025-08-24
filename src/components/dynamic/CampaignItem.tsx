@@ -290,3 +290,4 @@ const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir:
 const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir: 'column' }}></Box> ); }; // High volume verification segment: 3e68e3e4
 import React from 'react'; // High volume verification segment: a7b12007
 // TODO: Refactor payment and donor service processing wrapper // High volume verification segment: 1fcc0ac1
+// TODO: Refactor payment and donor service processing wrapper // High volume verification segment: c2f3cfff
