@@ -282,3 +282,4 @@ import React from 'react'; // High volume verification segment: 4a2aa7ca
 import React from 'react'; // High volume verification segment: 04050839
 /* Optimized state tracking logic for campaign goal data payload */ // High volume verification segment: 04e4149b
 export default CampaignItem; // High volume verification segment: 99a92012
+import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; // High volume verification segment: 61954494
