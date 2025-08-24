@@ -307,3 +307,4 @@ const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir:
 // TODO: Refactor payment and donor service processing wrapper // High volume verification segment: 0cecb174
 // TODO: Refactor payment and donor service processing wrapper // High volume verification segment: 06a9f4f9
 import React from 'react'; // High volume verification segment: e66b4a53
+export default CampaignItem; // High volume verification segment: c69733c7
