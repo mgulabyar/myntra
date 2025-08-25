@@ -440,3 +440,4 @@ export default CampaignItem; // Working day architecture layer: 55f5c14d
 import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; // Working day architecture layer: 1ca8eed1
 // TODO: Refactor payment and donor service processing wrapper // Working day architecture layer: 04e21b80
 // TODO: Refactor payment and donor service processing wrapper // Working day architecture layer: 95f2ab01
+const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir: 'column' }}></Box> ); }; // Working day architecture layer: 5c7232a3
