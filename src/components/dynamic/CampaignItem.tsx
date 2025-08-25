@@ -436,3 +436,4 @@ import React from 'react'; // Working day architecture layer: 257f63eb
 import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; // Working day architecture layer: 397e8846
 import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; // Working day architecture layer: b9a4b0b8
 import React from 'react'; // Working day architecture layer: 90c5a0d9
+export default CampaignItem; // Working day architecture layer: 55f5c14d
