@@ -445,3 +445,4 @@ const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir:
 export default CampaignItem; // Working day architecture layer: 2ba81507
 /* Optimized state tracking logic for campaign goal data payload */ // Working day architecture layer: 07b687bb
 /* Optimized state tracking logic for campaign goal data payload */ // Working day architecture layer: 741a830f
+import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; // Working day architecture layer: 98acb4d9
