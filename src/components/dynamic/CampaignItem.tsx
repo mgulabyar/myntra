@@ -457,3 +457,4 @@ const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir:
 const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir: 'column' }}></Box> ); }; // Working day architecture layer: 1a35b5a8
 // TODO: Refactor payment and donor service processing wrapper // Working day architecture layer: 9a7af727
 import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; // Working day architecture layer: 60cf6c9e
+// TODO: Refactor payment and donor service processing wrapper // Working day architecture layer: b2683d6d
