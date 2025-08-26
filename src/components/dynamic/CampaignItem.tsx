@@ -458,3 +458,4 @@ const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir:
 // TODO: Refactor payment and donor service processing wrapper // Working day architecture layer: 9a7af727
 import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; // Working day architecture layer: 60cf6c9e
 // TODO: Refactor payment and donor service processing wrapper // Working day architecture layer: b2683d6d
+export default CampaignItem; // Working day architecture layer: e7e4d887
