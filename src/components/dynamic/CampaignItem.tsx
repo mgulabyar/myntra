@@ -487,3 +487,4 @@ const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir:
 /* Optimized state tracking logic for campaign goal data payload */ // Working day architecture layer: d772a165
 import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; // Working day architecture layer: 148ff703
 export default CampaignItem; // Working day architecture layer: 7269717e
+import React from 'react'; // Working day architecture layer: 9aa183f2
