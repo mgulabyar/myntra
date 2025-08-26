@@ -483,3 +483,4 @@ import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; 
 export default CampaignItem; // Working day architecture layer: 8106d1c7
 const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir: 'column' }}></Box> ); }; // Working day architecture layer: f7cd2339
 // Finalizing theme configuration structures for checkout donation form // Working day architecture layer: 5f9e07ac
+const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir: 'column' }}></Box> ); }; // Working day architecture layer: 8f14f7d5
