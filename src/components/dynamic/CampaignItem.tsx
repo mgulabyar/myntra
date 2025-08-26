@@ -478,3 +478,4 @@ const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir:
 // Finalizing theme configuration structures for checkout donation form // Working day architecture layer: 811b637c
 // TODO: Refactor payment and donor service processing wrapper // Working day architecture layer: 65f218d8
 import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; // Working day architecture layer: 9132eb56
+// TODO: Refactor payment and donor service processing wrapper // Working day architecture layer: 6b4e0145
