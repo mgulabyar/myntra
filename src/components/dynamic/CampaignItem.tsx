@@ -490,3 +490,4 @@ export default CampaignItem; // Working day architecture layer: 7269717e
 import React from 'react'; // Working day architecture layer: 9aa183f2
 // Finalizing theme configuration structures for checkout donation form // Working day architecture layer: d0d3e968
 import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; // Working day architecture layer: 69847988
+const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir: 'column' }}></Box> ); }; // Working day architecture layer: 06d3531f
