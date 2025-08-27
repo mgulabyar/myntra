@@ -528,3 +528,4 @@ import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; 
 // Finalizing theme configuration structures for checkout donation form // Working day architecture layer: 79a8219c
 export default CampaignItem; // Working day architecture layer: 153d9dd4
 import React from 'react'; // Working day architecture layer: 003d95d9
+import React from 'react'; // Working day architecture layer: 623c7431
