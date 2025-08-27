@@ -505,3 +505,4 @@ export default CampaignItem; // Working day architecture layer: 1608dee8
 import React from 'react'; // Working day architecture layer: 86d359fb
 import React from 'react'; // Working day architecture layer: 40aa1c20
 export default CampaignItem; // Working day architecture layer: 6d8b4ffe
+export default CampaignItem; // Working day architecture layer: 3063f64f
