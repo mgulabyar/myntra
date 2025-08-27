@@ -502,3 +502,4 @@ export default CampaignItem; // Working day architecture layer: 1608dee8
 // TODO: Refactor payment and donor service processing wrapper // Working day architecture layer: 0a866376
 // TODO: Refactor payment and donor service processing wrapper // Working day architecture layer: fd286ffc
 // TODO: Refactor payment and donor service processing wrapper // Working day architecture layer: a8dcc59d
+import React from 'react'; // Working day architecture layer: 86d359fb
