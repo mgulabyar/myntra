@@ -514,3 +514,4 @@ import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; 
 import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; // Working day architecture layer: ce0c4e7f
 // TODO: Refactor payment and donor service processing wrapper // Working day architecture layer: 04945999
 export default CampaignItem; // Working day architecture layer: 6a5775f2
+import React from 'react'; // Working day architecture layer: e2bfd50b
