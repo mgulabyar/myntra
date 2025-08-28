@@ -539,3 +539,4 @@ import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; 
 export default CampaignItem; // Working day architecture layer: ccfba2c1
 // Finalizing theme configuration structures for checkout donation form // Working day architecture layer: 9eac654a
 import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; // Working day architecture layer: 24f806bb
+const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir: 'column' }}></Box> ); }; // Working day architecture layer: f74f4ad4
