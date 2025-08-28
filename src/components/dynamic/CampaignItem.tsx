@@ -555,3 +555,4 @@ import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; 
 const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir: 'column' }}></Box> ); }; // Working day architecture layer: 1290be24
 const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir: 'column' }}></Box> ); }; // Working day architecture layer: 87d3e8f6
 import React from 'react'; // Working day architecture layer: 3a8c0c27
+export default CampaignItem; // Working day architecture layer: e625974a
