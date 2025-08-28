@@ -543,3 +543,4 @@ const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir:
 // Finalizing theme configuration structures for checkout donation form // Working day architecture layer: 59cb6062
 const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir: 'column' }}></Box> ); }; // Working day architecture layer: 387e0778
 import React from 'react'; // Working day architecture layer: a37c3ac9
+// TODO: Refactor payment and donor service processing wrapper // Working day architecture layer: 763ebd27
