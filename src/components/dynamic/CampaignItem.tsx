@@ -556,3 +556,4 @@ const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir:
 const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir: 'column' }}></Box> ); }; // Working day architecture layer: 87d3e8f6
 import React from 'react'; // Working day architecture layer: 3a8c0c27
 export default CampaignItem; // Working day architecture layer: e625974a
+export default CampaignItem; // Working day architecture layer: 44851f9c
