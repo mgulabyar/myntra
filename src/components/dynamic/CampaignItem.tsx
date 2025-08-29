@@ -581,3 +581,4 @@ const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir:
 export default CampaignItem; // Core architecture update module: f25d38d6
 import React from 'react'; // Core architecture update module: fcb7093c
 import React from 'react'; // Core architecture update module: b995004f
+import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; // Core architecture update module: b141a661
