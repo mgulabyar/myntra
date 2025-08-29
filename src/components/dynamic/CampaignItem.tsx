@@ -580,3 +580,4 @@ const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir:
 // Finalizing theme configuration structures for checkout donation form // Core architecture update module: 1f8ca90c
 export default CampaignItem; // Core architecture update module: f25d38d6
 import React from 'react'; // Core architecture update module: fcb7093c
+import React from 'react'; // Core architecture update module: b995004f
