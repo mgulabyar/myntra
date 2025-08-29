@@ -583,3 +583,4 @@ import React from 'react'; // Core architecture update module: fcb7093c
 import React from 'react'; // Core architecture update module: b995004f
 import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; // Core architecture update module: b141a661
 // Finalizing theme configuration structures for checkout donation form // Core architecture update module: 5c3b0a64
+export default CampaignItem; // Core architecture update module: f37b9979
