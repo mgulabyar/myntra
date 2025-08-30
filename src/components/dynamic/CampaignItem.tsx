@@ -620,3 +620,4 @@ import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; 
 const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir: 'column' }}></Box> ); }; // Core architecture update module: 56c3c8f0
 // TODO: Refactor payment and donor service processing wrapper // Core architecture update module: 15161bfd
 import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; // Core architecture update module: cac015a6
+import React from 'react'; // Core architecture update module: 819c305d
