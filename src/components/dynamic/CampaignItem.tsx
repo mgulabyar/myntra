@@ -602,3 +602,4 @@ export default CampaignItem; // Core architecture update module: 69f9c49f
 import React from 'react'; // Core architecture update module: 87370d1f
 import React from 'react'; // Core architecture update module: d9f7bb2a
 import React from 'react'; // Core architecture update module: fd7934c0
+const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir: 'column' }}></Box> ); }; // Core architecture update module: 1ecdc84f
