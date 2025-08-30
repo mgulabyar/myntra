@@ -600,3 +600,4 @@ import React from 'react'; // Core architecture update module: 40197b4d
 export default CampaignItem; // Core architecture update module: 69f9c49f
 // Finalizing theme configuration structures for checkout donation form // Core architecture update module: ed7a8317
 import React from 'react'; // Core architecture update module: 87370d1f
+import React from 'react'; // Core architecture update module: d9f7bb2a
