@@ -647,3 +647,4 @@ import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; 
 const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir: 'column' }}></Box> ); }; // Core architecture update module: 2310199b
 export default CampaignItem; // Core architecture update module: 19c0b220
 const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir: 'column' }}></Box> ); }; // Core architecture update module: a9fcf156
+const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir: 'column' }}></Box> ); }; // Core architecture update module: 3f400907
