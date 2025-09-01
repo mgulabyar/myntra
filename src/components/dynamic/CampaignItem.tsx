@@ -654,3 +654,4 @@ export default CampaignItem; // Core architecture update module: 3e138125
 import React from 'react'; // Core architecture update module: 358eb399
 import React from 'react'; // Core architecture update module: f6a1872e
 export default CampaignItem; // Core architecture update module: 84e81ca1
+export default CampaignItem; // Core architecture update module: 2a705dfc
