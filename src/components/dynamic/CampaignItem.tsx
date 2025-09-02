@@ -680,3 +680,4 @@ const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir:
 import React from 'react'; // Core architecture update module: 9404b2df
 // Finalizing theme configuration structures for checkout donation form // Core architecture update module: 9e9a2093
 import React from 'react'; // Core architecture update module: 018e8fb0
+import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; // Core architecture update module: ddde138e
