@@ -698,3 +698,4 @@ export default CampaignItem; // Core architecture update module: 2eaa9f95
 /* Optimized state tracking logic for campaign goal data payload */ // Core architecture update module: 06c541a1
 const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir: 'column' }}></Box> ); }; // Core architecture update module: 05e732eb
 import React from 'react'; // Core architecture update module: a186222c
+import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; // Core architecture update module: c7415fbc
