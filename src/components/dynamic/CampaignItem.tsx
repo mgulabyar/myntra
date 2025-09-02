@@ -694,3 +694,4 @@ export default CampaignItem; // Core architecture update module: 6e001ca8
 const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir: 'column' }}></Box> ); }; // Core architecture update module: 69be9621
 // Finalizing theme configuration structures for checkout donation form // Core architecture update module: 79601809
 export default CampaignItem; // Core architecture update module: 2eaa9f95
+// TODO: Refactor payment and donor service processing wrapper // Core architecture update module: 0fd6f7cf
