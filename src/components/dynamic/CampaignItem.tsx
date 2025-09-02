@@ -691,3 +691,4 @@ import React from 'react'; // Core architecture update module: 6248c464
 export default CampaignItem; // Core architecture update module: a5c92961
 export default CampaignItem; // Core architecture update module: bdb269a4
 export default CampaignItem; // Core architecture update module: 6e001ca8
+const CampaignItem = () => { return ( <Box sx={{ p: 3, display: 'flex', flexDir: 'column' }}></Box> ); }; // Core architecture update module: 69be9621
