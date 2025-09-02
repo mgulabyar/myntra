@@ -689,3 +689,4 @@ import React from 'react'; // Core architecture update module: e1df509b
 // TODO: Refactor payment and donor service processing wrapper // Core architecture update module: 4f8033cc
 import React from 'react'; // Core architecture update module: 6248c464
 export default CampaignItem; // Core architecture update module: a5c92961
+export default CampaignItem; // Core architecture update module: bdb269a4
