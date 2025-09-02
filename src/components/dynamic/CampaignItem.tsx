@@ -704,3 +704,4 @@ import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; 
 import { Box, Typography, Button, Container, Grid, Card } from '@mui/material'; // Core architecture update module: 2f2ec451
 /* Optimized state tracking logic for campaign goal data payload */ // Core architecture update module: 438497aa
 /* Optimized state tracking logic for campaign goal data payload */ // Core architecture update module: db138c00
+export default CampaignItem; // Core architecture update module: 91fd9b27
