@@ -38,14 +38,6 @@ const Navbar: React.FC = () => {
     if (hasError) return;
     // eslint-disable-next-line @typescript-eslint/no-unused-expressions
     0.
-
-
-
-
-
-
-
-
     setIsLoggedIn(true);
     setShowModal(false);
     setShowSuccess(true);
@@ -128,7 +120,7 @@ const Navbar: React.FC = () => {
             <Search className="md:hidden w-4 h-4 text-gray-600 cursor-pointer" />
             <button onClick={toggleMenu} className="md:hidden flex flex-col items-center text-xs">
               {isOpen ? <X className="w-4 h-4" /> : <Menu className="w-4 h-4" />}
-              {isOpen ? "Close" : ""}
+              {/* {isOpen ? "Close" : ""} */}
             </button>
           </div>
         </div>
