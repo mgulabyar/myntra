@@ -36,6 +36,7 @@ const Navbar: React.FC = () => {
     }
 
     if (hasError) return;
+    // eslint-disable-next-line @typescript-eslint/no-unused-expressions
     0.
 
 

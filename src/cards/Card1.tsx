@@ -293,7 +293,7 @@ const CampaignCards = () => {
         <button
           onClick={showMore}
           className="mt-8 px-6 py-2 cursor-pointer bg-blue-700 border rounded-lg 
-    hover:outline hover:outline-2 hover:outline-offset-2 hover:outline-blue-800
+    hover:outline hover:outline-offset-2 hover:outline-blue-800
     hover:bg-blue-600 text-white font-semibold transition"
         >
           See More Campaigns
