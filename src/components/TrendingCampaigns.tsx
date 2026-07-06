@@ -15,7 +15,6 @@ const TrendingCampaigns = () => {
           />
         </div>
 
-        {/* Right Content */}
         <div style={{ boxShadow: "0 10px 25px rgba(0,0,0,0.3)" }}
          className="flex-1 p-6 flex flex-col justify-center min-w-0">
           <div className="flex flex-col gap-2 text-neutral-800">
