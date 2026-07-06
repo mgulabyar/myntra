@@ -37,7 +37,6 @@ const Navbar: React.FC = () => {
     <div className="text-xl font-bold">My Navbar</div>
   </div>
 
-  {/* Right Side */}
   {!isLoggedIn ? (
     <button
       onClick={() => setShowModal(true)}
