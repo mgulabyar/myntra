@@ -34,7 +34,7 @@ const CategoriesSection = () => {
         </div>
       )}
 
-      {/* Show  button */}
+      {/*  */}
       <button
         onClick={() => setShowCategories(!showCategories)}
         className=" hover:outline-2 hover:outline-offset-2 hover:outline-blue-800 px-6 py-2 cursor-pointer hover:outline-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition duration-300"
