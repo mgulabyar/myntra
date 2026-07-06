@@ -2,7 +2,6 @@ const SectionOne = () => {
   return (
     <div className="mx-1">
       <div className="relative w-full max-w-[1300px] aspect-[16/9] sm:aspect-auto sm:h-[400px] md:h-[500px] lg:h-[520px] rounded-3xl overflow-hidden mx-auto my-6 px-4 sm:px-6 lg:px-8 flex flex-col">
-        {/* Background Image */}
         <img alt="Making the Many Mighty" className="
            absolute inset-0 w-full h-full object-cover object-center transition-transform duration-1000 hover:scale-105 rounded-3xl
             " data-testid="hero-image" src="https://d1c7drk47yg0al.cloudfront.net/movement-images/trending/hero-prshx2bhqy.jpg">
