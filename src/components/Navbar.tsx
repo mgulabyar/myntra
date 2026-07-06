@@ -128,7 +128,6 @@ const Navbar: React.FC = () => {
           </div>
         </div>
 
-        {/* Mobile Nav */}
         {isOpen && (
           <div className="md:hidden flex flex-col items-start px-8 text-gray-600 font-bold bg-white shadow-md py-4 space-y-3">
             {[...navLinks, { label: "Get Funding", href: "#" }].map((link) => (
