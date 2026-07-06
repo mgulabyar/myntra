@@ -14,7 +14,7 @@ const SectionOne = () => {
         />
 
         <div className="relative z-20 flex flex-col justify-end h-full text-white max-w-3xl px-4 sm:px-6 pb-10 sm:pb-14 lg:pb-20 ">
-          <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight drop-shadow-lg">
+          <h1 className="text-xl sm:text-3xl md:text-5xl lg:text-6xl font-bold leading-tight drop-shadow-lg">
             Making the Many Mighty
           </h1>
           <p className="mt-3 text-lg sm:text-xl md:text-2xl font-semibold drop-shadow-md max-w-lg">
