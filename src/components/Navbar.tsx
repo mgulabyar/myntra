@@ -94,7 +94,6 @@ const Navbar: React.FC = () => {
             </a>
           </div>
 
-          {/* Right Actions */}
           <div className="flex items-center text-sm font-semibold text-[#333333] space-x-4">
             {navLinks.slice(4).map((link) => (
               <a key={link.label} href={link.href} className="hidden lg:block hover:text-blue-500">
