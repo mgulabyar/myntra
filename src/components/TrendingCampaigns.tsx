@@ -1,4 +1,3 @@
-// import React from 'react';
 
 const TrendingCampaigns = () => {
   return (
@@ -8,7 +7,6 @@ const TrendingCampaigns = () => {
       </h1>
 
       <div className="flex flex-nowrap transition-transform duration-300 hover:scale-[1.02] w-full max-w-7xl mx-auto bg-white rounded-xl shadow-md overflow-hidden">
-        {/* Left Image */}
         <div className="flex-1 relative aspect-video">
           <img
             src="https://d1c7drk47yg0al.cloudfront.net/assets/TwQaWju1qmKBvfWCwBg6EsqxS9DaJhGyd1tN24wE.jpg?profile=campaign.header_desktop"
