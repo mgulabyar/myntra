@@ -21,7 +21,6 @@ const CategoriesSection = () => {
 
   return (
     <div className="w-full py-6 px-4 text-center">
-      {/* Category Buttons */}
       {showCategories && (
         <div className="flex flex-wrap justify-center gap-4 mb-6">
           {categories.map((category, index) => (
