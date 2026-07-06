@@ -52,7 +52,6 @@ const SectionTwo = () => {
                             }}
                             data-testid="movement-button"
                         >
-                            {/* Overlay */}
                             <div
                                 aria-hidden="true"
                                 className={`absolute inset-0 z-0 ${movement.disabled ? '' : 'mix-blend-multiply'
@@ -66,7 +65,6 @@ const SectionTwo = () => {
                                 }}
                             ></div>
 
-                            {/* Label */}
                             <div className="z-10">
                                 <p className="font-bold text-white text-2xl 3xs:text-3xl sm:text-4xl uppercase tracking-wide text-shadow p-2 text-center m-0">
                                     {movement.label}
