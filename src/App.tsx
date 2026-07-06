@@ -9,7 +9,6 @@ import Card2 from "./cards/Card2";
 import Start from "./footer/Start";
 import Footer from "./footer/Footer";
 import ArrowButton from "./components/ArrowButton";
-// import './i18n';
 const App: React.FC = () => {
   return (
     <div>
