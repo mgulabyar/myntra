@@ -44,7 +44,7 @@ const SectionTwo = () => {
                             key={index}
                             type="button"
                             disabled={movement.disabled}
-                            className={`relative rounded-[20px] h-[120px] w-full max-w-[210px] group overflow-hidden flex justify-center items-center cursor-pointer outline outline-4 offset-4  ${movement.disabled ? 'pointer-events-none outline-blue-500' : 'outline-transparent'
+                            className={`relative rounded-[20px] h-[120px] w-full max-w-[210px] group overflow-hidden flex justify-center items-center cursor-pointer  outline-4 offset-4  ${movement.disabled ? 'pointer-events-none outline-blue-500' : 'outline-transparent'
                                 } duration-300 ease-in-out hover:outline-blue-500 focus:outline-blue-500 focus-visible:outline-blue-500 shadow-md shadow-black/25 bg-cover transition hover:scale-[1.03]`}
                             style={{
                                 backgroundImage: `url(${movement.image})`,

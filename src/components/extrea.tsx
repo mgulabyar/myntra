@@ -21,6 +21,7 @@ const Navbar: React.FC = () => {
   };
 
   return (
+    
   <nav className="bg-white shadow-md p-4 flex justify-between items-center">
   {/* Left Side */}
   <div className="flex items-center space-x-4">

@@ -8,11 +8,6 @@ const SectionOne = () => {
             " data-testid="hero-image" src="https://d1c7drk47yg0al.cloudfront.net/movement-images/trending/hero-prshx2bhqy.jpg">
 
             </img>
-        {/* <img
-          src="https://d1c7drk47yg0al.cloudfront.net/movement-images/trending/hero.jpg"
-          alt="Making the Many Mighty"
-          className="absolute inset-0 w-full h-full object-cover object-center transition-transform duration-1000 hover:scale-105 rounded-3xl"
-        /> */}
 
         {/* Gradient Overlay */}
         <div
