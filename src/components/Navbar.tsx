@@ -73,7 +73,6 @@ const Navbar: React.FC = () => {
 
   return (
     <>
-      {/* Success  */}
       {showSuccess && (
         <div className="fixed top-20 left-1/2 transform -translate-x-1/2 bg-green-100 border border-green-400 text-green-800 font-semibold px-6 py-3 rounded shadow z-[100] animate-bounce">
            Successfully Logged In!
