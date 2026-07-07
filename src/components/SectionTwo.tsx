@@ -85,7 +85,7 @@ const SectionTwo = () => {
                 }}
               />
 
-              {/* Subtle dark gradient at bottom for label legibility, visible on hover */}
+              {/* Subtle dark gradient at bottom for label legibi */}
               <div className="absolute inset-0 z-[5] bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
               <div className="z-10">
