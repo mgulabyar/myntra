@@ -15,7 +15,6 @@ const Navbar: React.FC = () => {
 
   const toggleMenu = () => setIsOpen((prev) => !prev);
 
-  // Scroll listener for a subtle premium depth effect on the navbar
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 8);
     window.addEventListener("scroll", handleScroll);
