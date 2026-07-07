@@ -1,8 +1,9 @@
 const SectionThree = () => {
   return (
-    <div>
-
-    </div>
+  <>
+  <div className=""></div>
+  <div></div>
+  </>
   )
 }
 
