@@ -237,7 +237,6 @@ const Navbar: React.FC = () => {
           </div>
         </div>
 
-        {/* Login modal */}
         {showModal && (
           <div
             className={`fixed inset-0 flex mt-72 items-center justify-center bg-black/50 backdrop-blur-sm z-50 transition-opacity duration-200 ${
