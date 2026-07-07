@@ -73,7 +73,6 @@ const SectionTwo = () => {
                 transitionDelay: mounted ? `${index * 80}ms` : "0ms",
               }}
             >
-              {/* Color/grayscale overlay - reveals full color on hover */}
               <div
                 aria-hidden="true"
                 role="presentation"
