@@ -5,7 +5,7 @@ const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [showModal, setShowModal] = useState(false);
-  const [modalVisible, setModalVisible] = useState(false); 
+  const [modalVisible, setModalVisible] = useState(false);
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [emailError, setEmailError] = useState("");
@@ -117,7 +117,10 @@ const Navbar: React.FC = () => {
         }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4 flex justify-between items-center">
-          <a href="#" className="shrink-0 transition-transform duration-200 hover:scale-105">
+          <a
+            href="#"
+            className="shrink-0 transition-transform duration-200 hover:scale-105"
+          >
             <svg
               className="header__svg-logo"
               xmlns="http://www.w3.org/2000/svg"
@@ -190,7 +193,11 @@ const Navbar: React.FC = () => {
               className="md:hidden flex flex-col items-center text-xs cursor-pointer transition-transform duration-200 active:scale-90"
             >
               <span className="transition-transform duration-300">
-                {isOpen ? <X className="w-4 h-4" /> : <Menu className="w-4 h-4" />}
+                {isOpen ? (
+                  <X className="w-4 h-4" />
+                ) : (
+                  <Menu className="w-4 h-4" />
+                )}
               </span>
               {isOpen ? "Close" : "Menu"}
             </button>
@@ -203,19 +210,21 @@ const Navbar: React.FC = () => {
           }`}
         >
           <div className="flex flex-col items-start px-8 text-gray-600 font-bold py-4 space-y-3">
-            {[...navLinks, { label: "Get Funding", href: "#" }].map((link, i) => (
-              <React.Fragment key={link.label}>
-                <a
-                  href={link.href}
-                  className="w-full transition-colors duration-200 hover:text-blue-500 hover:translate-x-1 transform"
-                  style={{ transitionDelay: isOpen ? `${i * 30}ms` : "0ms" }}
-                  onClick={() => setIsOpen(false)}
-                >
-                  {link.label}
-                </a>
-                <hr className="w-full border-gray-200" />
-              </React.Fragment>
-            ))}
+            {[...navLinks, { label: "Get Funding", href: "#" }].map(
+              (link, i) => (
+                <React.Fragment key={link.label}>
+                  <a
+                    href={link.href}
+                    className="w-full transition-colors duration-200 hover:text-blue-500 hover:translate-x-1 transform"
+                    style={{ transitionDelay: isOpen ? `${i * 30}ms` : "0ms" }}
+                    onClick={() => setIsOpen(false)}
+                  >
+                    {link.label}
+                  </a>
+                  <hr className="w-full border-gray-200" />
+                </React.Fragment>
+              ),
+            )}
             {!isLoggedIn ? (
               <button
                 onClick={() => {
@@ -247,10 +256,14 @@ const Navbar: React.FC = () => {
             <div
               onClick={(e) => e.stopPropagation()}
               className={`bg-white p-6 rounded-xl shadow-2xl w-[90%] max-w-sm transition-all duration-200 ease-out ${
-                modalVisible ? "opacity-100 scale-100 translate-y-0" : "opacity-0 scale-95 translate-y-2"
+                modalVisible
+                  ? "opacity-100 scale-100 translate-y-0"
+                  : "opacity-0 scale-95 translate-y-2"
               }`}
             >
-              <h2 className="text-xl font-semibold mb-4 text-gray-800">Login</h2>
+              <h2 className="text-xl font-semibold mb-4 text-gray-800">
+                Login
+              </h2>
               <form onSubmit={handleLogin} className="space-y-4">
                 <div>
                   <input
@@ -265,7 +278,9 @@ const Navbar: React.FC = () => {
                     }`}
                   />
                   {emailError && (
-                    <p className="text-red-500 text-xs mt-1 transition-opacity duration-200">{emailError}</p>
+                    <p className="text-red-500 text-xs mt-1 transition-opacity duration-200">
+                      {emailError}
+                    </p>
                   )}
                 </div>
 
@@ -278,11 +293,15 @@ const Navbar: React.FC = () => {
                     className={`w-full border ${
                       passwordError ? "border-red-500" : "border-gray-300"
                     } p-2.5 rounded-md focus:outline-none focus:ring-2 transition-all duration-200 ${
-                      passwordError ? "focus:ring-red-400" : "focus:ring-blue-400"
+                      passwordError
+                        ? "focus:ring-red-400"
+                        : "focus:ring-blue-400"
                     }`}
                   />
                   {passwordError && (
-                    <p className="text-red-500 text-xs mt-1 transition-opacity duration-200">{passwordError}</p>
+                    <p className="text-red-500 text-xs mt-1 transition-opacity duration-200">
+                      {passwordError}
+                    </p>
                   )}
                 </div>
 
