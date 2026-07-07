@@ -241,7 +241,6 @@ const Navbar: React.FC = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Lock body scroll when modal or mobile menu is open
   useEffect(() => {
     document.body.style.overflow = showModal || isOpen ? "hidden" : "";
     return () => {
