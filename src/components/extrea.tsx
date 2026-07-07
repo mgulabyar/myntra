@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// Navbar.tsx
+
 const Navbar: React.FC = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [showModal, setShowModal] = useState(false);
