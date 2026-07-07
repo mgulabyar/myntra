@@ -248,7 +248,6 @@ const Navbar: React.FC = () => {
     };
   }, [showModal, isOpen]);
 
-  // Smooth mount/unmount animation for the modal
   useEffect(() => {
     if (showModal) {
       const id = requestAnimationFrame(() => setModalVisible(true));
