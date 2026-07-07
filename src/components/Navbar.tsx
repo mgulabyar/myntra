@@ -197,7 +197,6 @@ const Navbar: React.FC = () => {
           </div>
         </div>
 
-        {/* Mobile menu - smooth slide down */}
         <div
           className={`md:hidden overflow-hidden transition-[max-height,opacity] duration-300 ease-in-out bg-white shadow-md ${
             isOpen ? "max-h-[600px] opacity-100" : "max-h-0 opacity-0"
