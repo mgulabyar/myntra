@@ -10,7 +10,7 @@ const SectionOne = () => {
 
   return (
     <div className="mx-1">
-      <div className="relative w-full max-w-[1300px] aspect-[16/9] sm:aspect-auto sm:h-[400px] md:h-[500px] lg:h-[520px] rounded-3xl overflow-hidden mx-auto my-6 px-6 sm:px-8 lg:px-8 flex flex-col group">
+      <div className="relative w-full  max-w-[1290px] aspect-[16/9] sm:aspect-auto sm:h-[400px] md:h-[500px] lg:h-[520px] rounded-3xl overflow-hidden mx-auto my-6 px-6 sm:px-8 lg:px-8 flex flex-col group">
         <img
           alt="Making the Many Mighty"
           data-testid="hero-image"
