@@ -1,12 +1,4 @@
 
-//       <div className="flex flex-nowrap transition-transform duration-300 hover:scale-[1.02] w-full max-w-7xl mx-auto bg-white rounded-xl shadow-md overflow-hidden">
-//         <div className="flex-1 relative aspect-video">
-//           <img
-//             src="https://d1c7drk47yg0al.cloudfront.net/assets/TwQaWju1qmKBvfWCwBg6EsqxS9DaJhGyd1tN24wE.jpg?profile=campaign.header_desktop"
-//             alt="North Gaza Campaign"
-//             className="object-cover w-full h-full rounded-l-xl transition-transform duration-300 hover:scale-[1.02]"
-//           />
-//         </div>
 
 //         <div style={{ boxShadow: "0 10px 25px rgba(0,0,0,0.3)" }}
 //          className="flex-1 p-6 flex flex-col justify-center min-w-0">
