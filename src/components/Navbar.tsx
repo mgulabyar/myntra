@@ -262,7 +262,6 @@ const Navbar: React.FC = () => {
     setTimeout(() => setShowModal(false), 200);
   }, []);
 
-  // Close modal on Escape key
   useEffect(() => {
     const handleKey = (e: KeyboardEvent) => {
       if (e.key === "Escape" && showModal) closeModal();
