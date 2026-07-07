@@ -152,7 +152,6 @@ const Navbar: React.FC = () => {
             </a>
           </div>
 
-          {/* Right side */}
           <div className="flex items-center text-sm font-semibold text-[#333333] space-x-3 sm:space-x-4">
             {navLinks.slice(4).map((link) => (
               <a
