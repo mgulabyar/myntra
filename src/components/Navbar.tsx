@@ -134,7 +134,6 @@ const Navbar: React.FC = () => {
             </svg>
           </a>
 
-          {/* Center links (desktop) */}
           <div className="hidden md:flex text-sm space-x-6 text-gray-700 font-medium">
             {navLinks.slice(0, 4).map((link) => (
               <a
