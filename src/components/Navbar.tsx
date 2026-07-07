@@ -20,7 +20,6 @@ const Navbar: React.FC = () => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-//  use  
   useEffect(() => {
     document.body.style.overflow = showModal || isOpen ? "hidden" : "";
     return () => {
