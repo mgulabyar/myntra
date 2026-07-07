@@ -23,7 +23,6 @@ const SectionOne = () => {
 
         <div className="absolute inset-0 rounded-3xl bg-gradient-to-t from-black/80 via-black/30 to-black/5 z-10" />
 
-        {/* Content */}
         <div className="relative z-20 flex flex-col justify-end h-full text-white max-w-3xl px-4 sm:px-6 pb-10 sm:pb-14 lg:pb-20">
           <h1
             className={`text-xl sm:text-3xl md:text-5xl lg:text-6xl font-extrabold leading-tight drop-shadow-lg transition-all duration-700 ease-out ${
@@ -49,7 +48,6 @@ const SectionOne = () => {
             style={{ transitionDelay: mounted ? "300ms" : "0ms" }}
           >
             <span className="relative z-10">Start a Campaign</span>
-            {/* Shine sweep on hover */}
             <span className="absolute inset-0 -translate-x-full group-hover:translate-x-full bg-gradient-to-r from-transparent via-white/25 to-transparent transition-transform duration-700 ease-out pointer-events-none" />
           </a>
         </div>
