@@ -72,7 +72,7 @@ const CategoriesSection = () => {
 
   return (
     <div className="w-full py-6 px-4 text-center">
-      {/* Always rendered so height/opacity transitions can animate smoothly */}
+      {/* Always rendered so height/opacity transitions can   */}
       <div
         className={`grid transition-all duration-500 ease-in-out ${
           showCategories ? "grid-rows-[1fr] opacity-100 mb-6" : "grid-rows-[0fr] opacity-0 mb-0"
