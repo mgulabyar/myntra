@@ -35,7 +35,6 @@ const Navbar: React.FC = () => {
       setModalVisible(false);
     }
   }, [showModal]);
-//  closeModel 
   const closeModal = useCallback(() => {
     setModalVisible(false);
     setTimeout(() => setShowModal(false), 200);
