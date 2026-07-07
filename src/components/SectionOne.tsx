@@ -21,7 +21,6 @@ const SectionOne = () => {
           }}
         />
 
-        {/* Gradient overlay for text readability + depth */}
         <div className="absolute inset-0 rounded-3xl bg-gradient-to-t from-black/80 via-black/30 to-black/5 z-10" />
 
         {/* Content */}
