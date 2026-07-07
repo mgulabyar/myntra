@@ -69,6 +69,7 @@ const Navbar: React.FC = () => {
       setPasswordError("Password must be at least 8 characters long.");
       hasError = true;
     }
+    //  if has Error return 
 
     if (hasError) return;
 
