@@ -242,7 +242,7 @@ const Card2 = () => {
         <div className="flex justify-center mt-8">
           <button
             onClick={handleShowMore}
-            className="  hover:outline-2 hover:outline-offset-2 hover:outline-blue-800 px-6 py-2 cursor-pointer hover:outline-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition duration-300"
+            className="  hover:outline-2 hover:outline-offset-2 hover:outline-blue-800 px-6 py-2 cursor-pointer bg-blue-600 text-white rounded-md hover:bg-blue-700 transition duration-300"
           >
             Show More
           </button>
