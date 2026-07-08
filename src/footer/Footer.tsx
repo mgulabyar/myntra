@@ -126,7 +126,7 @@ const Footer = () => {
       <hr className="w-full mt-20 border-gray-500/50" />
 
       <div className="text-white px-6 py-6 flex flex-col md:flex-row justify-between items-center gap-6">
-        <div className="text-sm">©2026 We are a Social Enterprise</div>
+        <div className="text-sm">©2025 We are a Social Enterprise</div>
 
         <div className="w-10 transition-transform duration-200 hover:scale-105">
           <a href="/">
@@ -143,38 +143,38 @@ const Footer = () => {
 
         <div className="flex gap-6 items-center">
           <a
-            href="mailto:info@example.com"
+            href="https://github.com/mgulabyar"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white transition-all duration-200 hover:scale-110 hover:text-[#ff8fce]"
-            aria-label="Email"
+            aria-label="GitHub"
           >
             <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z" />
+              <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55 0-.27-.01-1.16-.02-2.11-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.56-.29-5.25-1.28-5.25-5.7 0-1.26.45-2.29 1.18-3.09-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.73 0c2.18-1.49 3.14-1.18 3.14-1.18.63 1.58.24 2.75.12 3.04.74.8 1.18 1.83 1.18 3.09 0 4.43-2.7 5.4-5.27 5.69.41.36.78 1.06.78 2.14 0 1.55-.01 2.79-.01 3.17 0 .3.2.66.79.55A10.51 10.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z" />
             </svg>
           </a>
 
           <a
-            href="https://twitter.com"
+            href="https://www.linkedin.com/in/gulab-yar-fullstack-developer/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white transition-all duration-200 hover:scale-110 hover:text-[#ff8fce]"
-            aria-label="Twitter"
+            aria-label="LinkedIn"
           >
             <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M22.46 6c-.77.35-1.6.59-2.46.69a4.3 4.3 0 0 0 1.88-2.38 8.6 8.6 0 0 1-2.72 1.04 4.28 4.28 0 0 0-7.29 3.9 12.13 12.13 0 0 1-8.64-4.29 4.28 4.28 0 0 0 1.32 5.71 4.24 4.24 0 0 1-1.94-.54v.06a4.28 4.28 0 0 0 3.44 4.2 4.3 4.3 0 0 1-1.93.07 4.28 4.28 0 0 0 3.99 2.96 8.59 8.59 0 0 1-5.31 1.83A8.66 8.66 0 0 1 2 19.54a12.1 12.1 0 0 0 6.29 1.84c7.55 0 11.68-6.26 11.68-11.68 0-.18 0-.35-.01-.53a8.36 8.36 0 0 0 2.06-2.12z" />
+              <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.95v5.66H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.8 0 0 .78 0 1.75v20.5C0 23.22.8 24 1.77 24h20.45C23.2 24 24 23.22 24 22.25V1.75C24 .78 23.2 0 22.22 0z" />
             </svg>
           </a>
 
           <a
-            href="https://facebook.com"
+            href="https://x.com/home"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white transition-all duration-200 hover:scale-110 hover:text-[#ff8fce]"
-            aria-label="Facebook"
+            aria-label="X (Twitter)"
           >
             <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M22.676 0H1.324C.593 0 0 .593 0 1.324v21.352C0 23.407.593 24 1.324 24h11.495V14.708h-3.13v-3.622h3.13V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.464.099 2.797.143v3.24l-1.92.001c-1.504 0-1.796.715-1.796 1.763v2.312h3.587l-.467 3.622h-3.12V24h6.116C23.407 24 24 23.407 24 22.676V1.324C24 .593 23.407 0 22.676 0z" />
+              <path d="M18.9 1.5h3.68l-8.04 9.19L24 22.5h-7.4l-5.8-7.58-6.64 7.58H.47l8.6-9.83L0 1.5h7.59l5.24 6.93L18.9 1.5zm-1.3 18.78h2.04L6.5 3.6H4.3l13.3 16.68z" />
             </svg>
           </a>
         </div>
