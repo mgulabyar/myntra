@@ -1,28 +1,3 @@
-// import React, { useState, useEffect } from 'react';
-// import { FaArrowDown, FaArrowUp } from 'react-icons/fa';
-
-// const ArrowButton: React.FC = () => {
-//   const [isAtBottom, setIsAtBottom] = useState(false);
-
-//   useEffect(() => {
-//     const handleScroll = () => {
-//       const scrollPosition = window.innerHeight + window.scrollY;
-//       const threshold = document.body.offsetHeight - 200;
-//       setIsAtBottom(scrollPosition >= threshold);
-//     };
-
-//     window.addEventListener('scroll', handleScroll);
-//     return () => window.removeEventListener('scroll', handleScroll);
-//   }, []);
-
-//   const handleClick = () => {
-//     if (isAtBottom) {
-//       window.scrollTo({ top: 0, behavior: 'smooth' });
-//     } else {
-//       window.scrollBy({ top: window.innerHeight / 1.5, behavior: 'smooth' });
-//     }
-//   };
-
 import React, { useState, useEffect } from "react";
 import { FaArrowDown, FaArrowUp } from "react-icons/fa";
 
