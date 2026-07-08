@@ -243,7 +243,6 @@ const Footer = () => {
           ))}
         </div>
 
-        {/* Column 3 */}
         <div className="flex flex-col">
           <span className="text-md font-semibold py-5">Features</span>
           <a className={linkClass} href="https://chuffed.org/features/feature-overview">Crowdfunding</a>
@@ -255,7 +254,6 @@ const Footer = () => {
           <a className={linkClass} href="https://chuffed.org/press">News Stories</a>
         </div>
 
-        {/* Column 4 */}
         <div className="flex flex-col">
           <span className="text-md font-semibold py-5">Help</span>
           <a className={linkClass} href="https://docs.chuffed.org/">FAQs</a>
@@ -281,7 +279,6 @@ const Footer = () => {
             <option value="italiano">Italiano</option>
           </select>
 
-          {/* Down arrow icon - single rotation, no double-transform */}
           <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-3 text-white">
             <svg className="w-4 h-4 rotate-180 fill-current" viewBox="0 0 20 20">
               <path d="M7.293 14.707a1 1 0 0 1-1.414-1.414l5-5a1 1 0 0 1 1.414 0l5 5a1 1 0 0 1-1.414 1.414L12 10.414l-4.707 4.293z" />
