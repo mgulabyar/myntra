@@ -10,9 +10,6 @@
 // </button>
 //     </div>
 //   )
-// }
-
-// export default Start
 
 
 import { useEffect, useState } from "react";
