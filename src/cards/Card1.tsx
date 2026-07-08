@@ -229,7 +229,7 @@ const CampaignCards = () => {
       setLoadingMore(false);
     }, 300);
   };
-//  setvisiblecount
+//  setvi
   const allShown = visibleCount >= campaigns.length;
   return (
     <div className="flex flex-col items-center px-4 py-8 bg-gray-50">
