@@ -299,7 +299,6 @@ const Footer = () => {
         {/* Copyright */}
         <div className="text-sm">©2025 We are a Social Enterprise</div>
 
-        {/* Logo */}
         <div className="w-10 transition-transform duration-200 hover:scale-105">
           <a href="/">
             <svg className="w-full fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 162.52 131.78667">
