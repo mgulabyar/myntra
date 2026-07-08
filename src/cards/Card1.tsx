@@ -224,7 +224,6 @@ const CampaignCards = () => {
 
   const showMore = () => {
     setLoadingMore(true);
-    // brief delay gives the button a purposeful loading feel before new cards enter
     setTimeout(() => {
       setVisibleCount((prev) => prev + PAGE_SIZE);
       setLoadingMore(false);
