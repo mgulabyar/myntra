@@ -294,7 +294,6 @@ const Footer = () => {
       {/* Divider */}
       <hr className="w-full mt-20 border-gray-500/50" />
 
-      {/* Bottom Footer */}
       <div className="text-white px-6 py-6 flex flex-col md:flex-row justify-between items-center gap-6">
         <div className="text-sm">©2025 We are a Social Enterprise</div>
 
