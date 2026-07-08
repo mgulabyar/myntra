@@ -28,12 +28,6 @@
 //       onClick={handleClick}
 //       className='bg-blue-500 hover:bg-blue-600 cursor-pointer transition-all duration-200'
 //       style={{
-//         position: 'fixed',
-//         bottom: '30px',
-//         right: '30px',
-//         // backgroundColor: 'blue',
-//         color: '#fff',
-//         border: 'none',
 
 import React, { useState, useEffect } from "react";
 import { FaArrowDown, FaArrowUp } from "react-icons/fa";
