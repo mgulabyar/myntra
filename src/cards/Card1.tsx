@@ -216,91 +216,187 @@ const campaigns = [
     progress: 20.01,
   },
 ];
+const PAGE_SIZE = 8;
 
 const CampaignCards = () => {
-  const [visibleCount, setVisibleCount] = useState(8); 
-  const showMore = () => setVisibleCount(prev => prev + 8);
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+  const [loadingMore, setLoadingMore] = useState(false);
+
+  const showMore = () => {
+    setLoadingMore(true);
+    // brief delay gives the button a purposeful loading feel before new cards enter
+    setTimeout(() => {
+      setVisibleCount((prev) => prev + PAGE_SIZE);
+      setLoadingMore(false);
+    }, 300);
+  };
+
   const allShown = visibleCount >= campaigns.length;
-
   return (
+    // <div className="flex flex-col items-center px-4 py-8 bg-gray-50">
+    //   {/* Cards Grid */}
+    //   <div className="flex flex-wrap justify-center gap-6">
+    //     {campaigns.slice(0, visibleCount).map((card, index) => (
+    //       <div
+    //         key={index}
+    //         className="w-[300px] bg-white cursor-pointer shadow-lg rounded-xl overflow-hidden transition-transform duration-300 hover:scale-[1.04] flex flex-col"
+    //         style={{ minHeight: "390px" }}
+    //       >
+    //         {/* Image */}
+    //         <div
+    //           className="w-full h-[210px] bg-cover bg-center"
+    //           style={{ backgroundImage: `url("${card.image}")` }}
+    //         ></div>
+
+    //         {/* Content */}
+    //         <div className="flex flex-col justify-between flex-1 p-5 space-y-3">
+    //           <div className="space-y-2">
+    //             <h3 className="font-bold text-[20px] text-gray-800 leading-snug">
+    //               {card.title}
+    //             </h3>
+
+    //             {/* Location */}
+    //             <div className="flex items-center gap-1 text-sm text-gray-600">
+    //               <svg
+    //                 xmlns="http://www.w3.org/2000/svg"
+    //                 width="18"
+    //                 height="18"
+    //                 viewBox="0 0 24 24"
+    //                 fill="none"
+    //                 stroke="currentColor"
+    //                 strokeWidth="2"
+    //                 strokeLinecap="round"
+    //                 strokeLinejoin="round"
+    //                 className="h-4 w-4"
+    //               >
+    //                 <path
+    //                   d="M12 21s-8-6.58-8-12A8 8 0 1 1 20 9c0 5.42-8 12-8 12z"
+    //                   fill="currentColor"
+    //                 />
+    //                 <circle cx="12" cy="9" fill="white" r="4" />
+    //               </svg>
+    //               <span>{card.location}</span>
+    //             </div>
+    //           </div>
+
+    //           {/* Progress */}
+    //           <div className="space-y-1 pt-1">
+    //             <div className="w-full bg-gray-200 rounded-full h-[10px] overflow-hidden">
+    //               <div
+    //                 className="bg-[#00ADEE] h-full rounded-full transition-all duration-500 ease-out"
+    //                 style={{ width: `${card.progress}%` }}
+    //               ></div>
+    //             </div>
+    //             <h5 className="font-bold text-sm text-gray-900">
+    //               {card.amount}{" "}
+    //               <span className="font-normal text-gray-600">raised</span>
+    //             </h5>
+    //           </div>
+    //         </div>
+    //       </div>
+    //     ))}
+    //   </div>
+
+    //   {/* Show More Button */}
+    //   {!allShown && (
+
+    //     <button
+    //       onClick={showMore}
+    //       className="mt-8 px-6 py-2 cursor-pointer bg-blue-700 border rounded-lg 
+    // hover:outline hover:outline-offset-2 hover:outline-blue-800
+    // hover:bg-blue-600 text-white font-semibold transition"
+    //     >
+    //       See More Campaigns
+    //     </button>
+
+    //   )}
+    // </div>
+
     <div className="flex flex-col items-center px-4 py-8 bg-gray-50">
-      {/* Cards Grid */}
-      <div className="flex flex-wrap justify-center gap-6">
-        {campaigns.slice(0, visibleCount).map((card, index) => (
+  {/* Cards Grid */}
+  <div className="flex flex-wrap justify-center gap-6">
+    {campaigns.slice(0, visibleCount).map((card, index) => (
+      <div
+        key={index}
+        className="w-[300px] bg-white cursor-pointer shadow-lg rounded-xl overflow-hidden flex flex-col transition-all duration-300 ease-out hover:-translate-y-1 hover:shadow-2xl hover:shadow-black/10"
+        style={{
+          minHeight: "390px",
+          animation: "cardFadeIn 500ms ease-out both",
+          animationDelay: `${(index % PAGE_SIZE) * 60}ms`,
+        }}
+      >
+        <div className="w-full h-[210px] overflow-hidden">
           <div
-            key={index}
-            className="w-[300px] bg-white cursor-pointer shadow-lg rounded-xl overflow-hidden transition-transform duration-300 hover:scale-[1.04] flex flex-col"
-            style={{ minHeight: "390px" }}
-          >
-            {/* Image */}
-            <div
-              className="w-full h-[210px] bg-cover bg-center"
-              style={{ backgroundImage: `url("${card.image}")` }}
-            ></div>
+            className="w-full h-full bg-cover bg-center transition-transform duration-500 ease-out hover:scale-110"
+            style={{ backgroundImage: `url("${card.image}")` }}
+          />
+        </div>
 
-            {/* Content */}
-            <div className="flex flex-col justify-between flex-1 p-5 space-y-3">
-              <div className="space-y-2">
-                <h3 className="font-bold text-[20px] text-gray-800 leading-snug">
-                  {card.title}
-                </h3>
+        <div className="flex flex-col justify-between flex-1 p-5 space-y-3">
+          <div className="space-y-2">
+            <h3 className="font-bold text-[20px] text-gray-800 leading-snug line-clamp-2 min-h-[56px]">
+              {card.title}
+            </h3>
 
-                {/* Location */}
-                <div className="flex items-center gap-1 text-sm text-gray-600">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="18"
-                    height="18"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="h-4 w-4"
-                  >
-                    <path
-                      d="M12 21s-8-6.58-8-12A8 8 0 1 1 20 9c0 5.42-8 12-8 12z"
-                      fill="currentColor"
-                    />
-                    <circle cx="12" cy="9" fill="white" r="4" />
-                  </svg>
-                  <span>{card.location}</span>
-                </div>
-              </div>
-
-              {/* Progress */}
-              <div className="space-y-1 pt-1">
-                <div className="w-full bg-gray-200 rounded-full h-[10px] overflow-hidden">
-                  <div
-                    className="bg-[#00ADEE] h-full rounded-full transition-all duration-500 ease-out"
-                    style={{ width: `${card.progress}%` }}
-                  ></div>
-                </div>
-                <h5 className="font-bold text-sm text-gray-900">
-                  {card.amount}{" "}
-                  <span className="font-normal text-gray-600">raised</span>
-                </h5>
-              </div>
+            <div className="flex items-center gap-1 text-sm text-gray-600">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="h-4 w-4 shrink-0"
+              >
+                <path
+                  d="M12 21s-8-6.58-8-12A8 8 0 1 1 20 9c0 5.42-8 12-8 12z"
+                  fill="currentColor"
+                />
+                <circle cx="12" cy="9" fill="white" r="4" />
+              </svg>
+              <span className="truncate">{card.location}</span>
             </div>
           </div>
-        ))}
+
+          <div className="space-y-1 pt-1">
+            <div className="w-full bg-gray-200 rounded-full h-[10px] overflow-hidden">
+              <div
+                className="bg-[#00ADEE] h-full rounded-full transition-all duration-700 ease-out"
+                style={{ width: `${Math.min(card.progress, 100)}%` }}
+              />
+            </div>
+            <h5 className="font-bold text-sm text-gray-900">
+              {card.amount}{" "}
+              <span className="font-normal text-gray-600">raised</span>
+            </h5>
+          </div>
+        </div>
       </div>
+    ))}
+  </div>
 
-      {/* Show More Button */}
-      {!allShown && (
+  {/* Show More Button */}
+  {!allShown && (
+    <button
+      onClick={showMore}
+      disabled={loadingMore}
+      className="mt-8 px-6 py-2 cursor-pointer bg-blue-700 border border-transparent rounded-lg text-white font-semibold transition-all duration-300 ease-out hover:bg-blue-600 hover:scale-[1.03] hover:shadow-md hover:shadow-blue-200 active:scale-95 hover:outline hover:outline-offset-2 hover:outline-blue-800 disabled:opacity-70 disabled:cursor-wait disabled:hover:scale-100"
+    >
+      {loadingMore ? "Loading..." : "See More Campaigns"}
+    </button>
+  )}
 
-        <button
-          onClick={showMore}
-          className="mt-8 px-6 py-2 cursor-pointer bg-blue-700 border rounded-lg 
-    hover:outline hover:outline-offset-2 hover:outline-blue-800
-    hover:bg-blue-600 text-white font-semibold transition"
-        >
-          See More Campaigns
-        </button>
+  <style>{`
+    @keyframes cardFadeIn {
+      from { opacity: 0; transform: translateY(16px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  `}</style>
+</div>
 
-      )}
-    </div>
   );
 };
 
