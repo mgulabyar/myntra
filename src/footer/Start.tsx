@@ -28,10 +28,6 @@
 //         Start Your Campaign
 //       </a>
 //     </div>
-//   );
-// };
-
-// export default Start;
 
 import { useEffect, useState } from "react";
 
