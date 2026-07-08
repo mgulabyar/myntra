@@ -194,12 +194,73 @@ const campaigns = [
   }
 
 ];
+// const Card2 = () => {
+//   const cardsPerPage = 8; 
+//   const [visibleCount, setVisibleCount] = useState(cardsPerPage);
+
+//   const handleShowMore = () => {
+//     setVisibleCount((prev) => Math.min(prev + cardsPerPage, campaigns.length));
+//   };
+
+//   const isAllVisible = visibleCount >= campaigns.length;
+
+//   return (
+//     <div className="px-4 py-6">
+//       <h1 className="text-3xl md:ml-5 md:text-4xl text-gray-800 font-bold mb-6">
+//         Trending Campaigns
+//       </h1>
+
+//       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-[1300px] mx-auto">
+//         {campaigns.slice(0, visibleCount).map((card, index) => (
+//           <div
+//             key={index}
+//             className="flex flex-col bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 w-72 h-[420px] cursor-pointer transform transition-transform duration-300 ease-in-out hover:scale-103"
+//           >
+//             <img
+//               src={card.image}
+//               alt={card.title}
+//               className="w-full h-40 object-cover"
+//             />
+//             <div className="p-4 flex flex-col justify-between flex-grow">
+//               <div>
+//                 <h2 className="text-xl font-bold text-gray-700 leading-tight mb-1">
+//                   {card.title}
+//                 </h2>
+//                 <p className="text-xs text-gray-500 mb-1">{card.date}</p>
+//                 <p className="text-xs text-gray-600 mb-2">{card.category}</p>
+//               </div>
+//               <hr className="w-full my-2 border-gray-300" />
+//               <p className="text-sm text-gray-700 line-clamp-4">
+//                 {card.description}
+//               </p>
+//             </div>
+//           </div>
+//         ))}
+//       </div>
+
+//       {!isAllVisible && (
+//         <div className="flex justify-center mt-8">
+//           <button
+//             onClick={handleShowMore}
+//             className="  hover:outline-2 hover:outline-offset-2 hover:outline-blue-800 px-6 py-2 cursor-pointer bg-blue-600 text-white rounded-md hover:bg-blue-700 transition duration-300"
+//           >
+//             Show More
+//           </button>
+//         </div>
+//       )}
+//     </div>
+//   );
+// };
+
+
+
+const CARDS_PER_PAGE = 8;
+
 const Card2 = () => {
-  const cardsPerPage = 8; 
-  const [visibleCount, setVisibleCount] = useState(cardsPerPage);
+  const [visibleCount, setVisibleCount] = useState(CARDS_PER_PAGE);
 
   const handleShowMore = () => {
-    setVisibleCount((prev) => Math.min(prev + cardsPerPage, campaigns.length));
+    setVisibleCount((prev) => Math.min(prev + CARDS_PER_PAGE, campaigns.length));
   };
 
   const isAllVisible = visibleCount >= campaigns.length;
@@ -214,25 +275,29 @@ const Card2 = () => {
         {campaigns.slice(0, visibleCount).map((card, index) => (
           <div
             key={index}
-            className="flex flex-col bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 w-72 h-[420px] cursor-pointer transform transition-transform duration-300 ease-in-out hover:scale-103"
+            className="group flex flex-col bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 h-[420px] cursor-pointer transition-all duration-300 ease-out hover:-translate-y-1 hover:shadow-xl hover:shadow-black/10"
+            style={{
+              animation: "cardFadeIn 500ms ease-out both",
+              animationDelay: `${(index % CARDS_PER_PAGE) * 60}ms`,
+            }}
           >
-            <img
-              src={card.image}
-              alt={card.title}
-              className="w-full h-40 object-cover"
-            />
+            <div className="w-full h-40 overflow-hidden">
+              <img
+                src={card.image}
+                alt={card.title}
+                className="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-110"
+              />
+            </div>
             <div className="p-4 flex flex-col justify-between flex-grow">
               <div>
-                <h2 className="text-xl font-bold text-gray-700 leading-tight mb-1">
+                <h2 className="text-xl font-bold text-gray-700 leading-tight mb-1 line-clamp-2 min-h-[52px] transition-colors duration-200 group-hover:text-blue-600">
                   {card.title}
                 </h2>
                 <p className="text-xs text-gray-500 mb-1">{card.date}</p>
                 <p className="text-xs text-gray-600 mb-2">{card.category}</p>
               </div>
               <hr className="w-full my-2 border-gray-300" />
-              <p className="text-sm text-gray-700 line-clamp-4">
-                {card.description}
-              </p>
+              <p className="text-sm text-gray-700 line-clamp-4">{card.description}</p>
             </div>
           </div>
         ))}
@@ -242,15 +307,24 @@ const Card2 = () => {
         <div className="flex justify-center mt-8">
           <button
             onClick={handleShowMore}
-            className="  hover:outline-2 hover:outline-offset-2 hover:outline-blue-800 px-6 py-2 cursor-pointer bg-blue-600 text-white rounded-md hover:bg-blue-700 transition duration-300"
+            className="px-6 py-2 cursor-pointer bg-blue-600 text-white font-semibold rounded-md shadow-sm transition-all duration-300 ease-out hover:bg-blue-700 hover:scale-[1.03] hover:shadow-md hover:shadow-blue-200 active:scale-95 hover:outline-2 hover:outline-offset-2 hover:outline-blue-800"
           >
             Show More
           </button>
         </div>
       )}
+
+      <style>{`
+        @keyframes cardFadeIn {
+          from { opacity: 0; transform: translateY(16px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+      `}</style>
     </div>
   );
 };
+
+// export default Card2;
 
 export default Card2; 
   
