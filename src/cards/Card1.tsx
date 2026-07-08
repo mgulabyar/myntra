@@ -233,7 +233,6 @@ const CampaignCards = () => {
   const allShown = visibleCount >= campaigns.length;
   return (
     <div className="flex flex-col items-center px-4 py-8 bg-gray-50">
-  {/* Cards Grid */}
   <div className="flex flex-wrap justify-center gap-6">
     {campaigns.slice(0, visibleCount).map((card, index) => (
       <div
