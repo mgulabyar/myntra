@@ -7,9 +7,7 @@
 // <button className='hover:outline-2 hover:outline-offset-2 hover:outline-pink-800 cursor-pointer  bg-[#e444a0] hover:bg-pink-700 text-white rounded-md px-4 py-2'>
 // <a href="https://chuffed.org/onboarding/category">Start Your Campaign </a>
 
-// </button>
-//     </div>
-//   )
+
 
 
 import { useEffect, useState } from "react";
