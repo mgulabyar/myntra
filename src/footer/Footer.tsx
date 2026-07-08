@@ -296,7 +296,6 @@ const Footer = () => {
 
       {/* Bottom Footer */}
       <div className="text-white px-6 py-6 flex flex-col md:flex-row justify-between items-center gap-6">
-        {/* Copyright */}
         <div className="text-sm">©2025 We are a Social Enterprise</div>
 
         <div className="w-10 transition-transform duration-200 hover:scale-105">
