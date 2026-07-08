@@ -271,7 +271,6 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Language Selector */}
       <div className="flex flex-col mt-12 space-y-2">
         <label className="font-medium">Language</label>
         <div className="relative inline-block w-64">
