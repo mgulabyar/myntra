@@ -39,14 +39,6 @@
 //         cursor: 'pointer',
 //         zIndex: 1000,
 //       }}
-//       aria-label={isAtBottom ? 'Scroll to Top' : 'Scroll Down'}
-//     >
-//       {isAtBottom ? <FaArrowUp size={20} /> : <FaArrowDown size={20} />}
-//     </button>
-//   );
-// };
-
-// export default ArrowButton;
 
 import React, { useState, useEffect } from "react";
 import { FaArrowDown, FaArrowUp } from "react-icons/fa";
