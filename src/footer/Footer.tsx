@@ -313,7 +313,6 @@ const Footer = () => {
           </a>
         </div>
 
-        {/* Social Icons */}
         <div className="flex gap-6 items-center">
           <a
             href="mailto:info@example.com"
