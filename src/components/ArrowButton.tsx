@@ -34,11 +34,6 @@
 //         // backgroundColor: 'blue',
 //         color: '#fff',
 //         border: 'none',
-//         borderRadius: '50%',
-//         padding: '15px',
-//         cursor: 'pointer',
-//         zIndex: 1000,
-//       }}
 
 import React, { useState, useEffect } from "react";
 import { FaArrowDown, FaArrowUp } from "react-icons/fa";
