@@ -194,66 +194,6 @@ const campaigns = [
   }
 
 ];
-// const Card2 = () => {
-//   const cardsPerPage = 8; 
-//   const [visibleCount, setVisibleCount] = useState(cardsPerPage);
-
-//   const handleShowMore = () => {
-//     setVisibleCount((prev) => Math.min(prev + cardsPerPage, campaigns.length));
-//   };
-
-//   const isAllVisible = visibleCount >= campaigns.length;
-
-//   return (
-//     <div className="px-4 py-6">
-//       <h1 className="text-3xl md:ml-5 md:text-4xl text-gray-800 font-bold mb-6">
-//         Trending Campaigns
-//       </h1>
-
-//       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-[1300px] mx-auto">
-//         {campaigns.slice(0, visibleCount).map((card, index) => (
-//           <div
-//             key={index}
-//             className="flex flex-col bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 w-72 h-[420px] cursor-pointer transform transition-transform duration-300 ease-in-out hover:scale-103"
-//           >
-//             <img
-//               src={card.image}
-//               alt={card.title}
-//               className="w-full h-40 object-cover"
-//             />
-//             <div className="p-4 flex flex-col justify-between flex-grow">
-//               <div>
-//                 <h2 className="text-xl font-bold text-gray-700 leading-tight mb-1">
-//                   {card.title}
-//                 </h2>
-//                 <p className="text-xs text-gray-500 mb-1">{card.date}</p>
-//                 <p className="text-xs text-gray-600 mb-2">{card.category}</p>
-//               </div>
-//               <hr className="w-full my-2 border-gray-300" />
-//               <p className="text-sm text-gray-700 line-clamp-4">
-//                 {card.description}
-//               </p>
-//             </div>
-//           </div>
-//         ))}
-//       </div>
-
-//       {!isAllVisible && (
-//         <div className="flex justify-center mt-8">
-//           <button
-//             onClick={handleShowMore}
-//             className="  hover:outline-2 hover:outline-offset-2 hover:outline-blue-800 px-6 py-2 cursor-pointer bg-blue-600 text-white rounded-md hover:bg-blue-700 transition duration-300"
-//           >
-//             Show More
-//           </button>
-//         </div>
-//       )}
-//     </div>
-//   );
-// };
-
-
-
 const CARDS_PER_PAGE = 8;
 
 const Card2 = () => {
