@@ -264,7 +264,5 @@ const Card2 = () => {
   );
 };
 
-// export default Car
-
 export default Card2; 
   
