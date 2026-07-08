@@ -297,7 +297,7 @@ const CampaignCards = () => {
     ))}
   </div>
 
-  {/* Show More  */}
+  {/* Show  */}
   {!allShown && (
     <button
       onClick={showMore}
